@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>University Webiste Design - Project</title>
+</head>
+<body>
+     <section class="header">
+        <nav>
+            <a href="index.html"><img src="Images/bbd-logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">ABOUT</a></li>
+                    <li><a href="#">COURSE</a></li>
+                    <li><a href="#">BLOG</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h1 class="heading">Lucknow Top University</h1>
+            <p>Babu Banarasi Das University Lucknow also known as BBDU LUCKNOW, is a State University situated in Lucknow, Uttar Prades<br> BBDU
+            LUCKNOW was established in the year 2010. Its campus is spread over 98 Acres of land. BBDU LUCKNOW is accredited by NAAC. </p>
+            <a href="#" class="hero-btn">Visit Us to know more</a>    
+        </div> 
+     </section>
+
+    <!-- --------------------------- Course ---------------------- -->
+
+<section class="course">
+    <h1 >Course We Offer</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    <div class="row">
+        <div class="course-col">
+            <h3>Intermediate</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem ratione cupiditate esse pariatur facilis architecto neque reprehenderit ab! Sed laborum eveniet  Totam, dolore architecto alias officia neque dolor? Corrupti, consequuntur!</p>
+        </div>
+        <div class="course-col">
+            <h3>Degree</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem ratione cupiditate esse pariatur facilis architecto neque reprehenderit ab! Sed laborum eveniet  architecto. Totam, dolore architecto alias officia neque dolor? Corrupti, consequuntur!</p>
+        </div>    
+        <div class="course-col">
+            <h3>Post Graduation</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem ratione cupiditate esse pariatur facilis architecto neque reprehenderit ab! Sed laborum eveniet  architecto. Totam, dolore architecto alias officia neque dolor? Corrupti, consequuntur!</p>
+        </div>
+    </div>
+</section>
+
+<!-- --------------------------- campus------------------------------ -->
+
+<section class="campus">
+    <h1>Our Global Campus</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, recusandae. Accusamus aliquid atque suscipit obcaecati explicabo eos quas recusandae odit.vgb</p>
+    <div class="row">
+        <div class="campus-col">
+            <img src="images/bbdubanner1.png">
+            <div class="layer">
+                <h3>LUCKNOW</h3>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- ------------------ JavaScript for Toggle Menu ---------------------------->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right ='0';
+        }
+        var navLinks = document.getElementById("navLinks");
+        function hideMenu(){
+            navLinks.style.right ='-200px';
+        }
+    </script>
+</body>
+</html>
