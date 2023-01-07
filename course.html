@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>University Webiste Design - Project</title>
+</head>
+<body>
+     <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="Images/bbd-logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="About.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="Blog.html">BLOG</a></li>
+                    <li><a href="Contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Our Course</h1>
+     </section>
+
+ 
+<!-- ------------------------------- courses ---------------------------------- -->
+<section class="sub-course">
+    <h1 >Course We Offer</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    <div class="row">
+        <div class="course-col">
+            <h3>Intermediate</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem ratione cupiditate esse pariatur facilis architecto neque reprehenderit ab! Sed laborum eveniet  Totam, dolore architecto alias officia neque dolor? Corrupti, consequuntur!</p>
+        </div>
+        <div class="course-col">
+            <h3>Degree</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem ratione cupiditate esse pariatur facilis architecto neque reprehenderit ab! Sed laborum eveniet  architecto. Totam, dolore architecto alias officia neque dolor? Corrupti, consequuntur!</p>
+        </div>    
+        <div class="course-col">
+            <h3>Post Graduation</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem ratione cupiditate esse pariatur facilis architecto neque reprehenderit ab! Sed laborum eveniet  architecto. Totam, dolore architecto alias officia neque dolor? Corrupti, consequuntur!</p>
+        </div>
+    </div>
+</section>
+
+
+<!-- -------------------------------------------facililites-------------------------------------------- -->
+<section class="facilities">
+    <h1>Our Facilities</h1>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora, cuque.</p>
+    <div class="row">
+        <div class="facilities-col">
+            <img src="Images/library1.jpg">
+            <h3>Library</h3>
+            <p>Babu Banarasi Das University library has rich & well-stocked central & school libraries with more than 2,00,000 Books, E-Library, E-Journals, Periodicals and Journals in print as well as in electronic form with online subscription of IEEE, INDEST, Science Direct, Bentham.</p>
+        </div>
+        <div class="facilities-col">
+            <img src="Images/sports2.jpg">
+            <h3>Sports Area</h3>
+            <p>Dr. Akhilesh Das Gupta sports stadium in the campus has a capacity to accommodate more than 20,000 spectators. The stadium is approved by BCCI to hold 'A' class National Cricket Tournaments and is regularly used for Ranji Trophy matches every year.</p>
+        </div>
+        <div class="facilities-col">
+            <img src="Images/cafeteria.jpg">
+            <h3>cafeteria</h3>
+            <p>The Campus has Coffee shops and surrounded by lush green lawns housing Food Court, Dispensary and Branded Outfit Shops.</p>
+        </div>
+
+    </div>
+</section>
+<section class="facility">
+    <div class="row">
+        <div class="facility-col">
+            <img src="Images/audi.jpg">
+            <h3>Auditorium Area</h3>
+            <p>The University campus boasts of an ultra moder air-conditioned with a seating capacity of 1000. It has JBL acoustics, cinemascope projector and a cinemascope screen.</p>
+        </div>
+        <div class="facility-col">
+            <img src="Images/lab1.jpg">
+            <h3>Computer Lab</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos quibusdam error placeat voluptas natus voluptate doloremque magnam temporibus alias exercitationem?</p>
+        </div>
+        <div class="facility-col">
+            <img src="Images/dental_lab.jpg">
+            <h3>Health Service</h3>
+            <p>Round-the-clock in campus medical OPD and emergency services along with provision of regular medical check-us available to the residents of the campus</p>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+<!------------- --------------- footer------------------------------ -->
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, ad. Necessitatibus distinctio <br> fugiat ullam voluptatem eos nulla ducimus! Sapiente, sequi.</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+    <p>Made with <i class="fa fa-heart-o"></i> by Easy Tutorials</p>
+</section>
+
+
+
+
+
+    <!-- ------------------ JavaScript for Toggle Menu ---------------------------->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right ='0';
+        }
+        var navLinks = document.getElementById("navLinks");
+        function hideMenu(){
+            navLinks.style.right ='-200px';
+        }
+    </script>
+</body>
+</html>
